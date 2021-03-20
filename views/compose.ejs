@@ -1,0 +1,33 @@
+<%- include("partials/header.ejs") %>
+
+      <h1>Compose</h1>
+      <form action="/compose" method="post">
+            <div class="mb-3">
+                  <label  class="form-label">Title</label>
+                  <input type="text" class="form-control" name="postTitle" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+            </div>
+            <div class="mb-3">
+                  <label class="form-label">Post</label>
+                  <textarea name="postBody" class="form-control" id="" cols="120" rows="9"></textarea>
+
+            </div>
+            <br>
+
+            
+            
+
+            <div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+
+      </form>
+
+
+
+
+
+
+
+
+<%- include("partials/footer.ejs") %>
